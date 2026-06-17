@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+
+<div class="play">
+
+    <div class="descripcionSong">
+        <img src="" alt="" width="300px">
+        <h4 class="nameSong"></h4>
+        <p class="nameAlbum"></p>
+        <p class="artist"></p>
+    </div>    
+    
+    <div id="playmusic">
+        <audio id="player">
+            <source src="" type="audio/mpeg">
+        </audio>
+        <div class="botones">
+            <button id="Previous" class="btn">|◀◀</button>
+            <button id="playBtn" class="btn">▶</button>
+            <button id="next" class="btn">▶▶|</button>
+            <button id="Shuffle" class="btn">🔀</button>
+        </div>       
+       <progress id="progress" value="0" max="100"></progress>
+       <div class="timeDisplay">
+           <span id="currentTime">0:00</span>
+           <span id="totalTime">0:00</span>
+       </div>
+    </div>
+
+</div>
+
+<div class="playListHere">
+    <ul id="playList">
+        
+    </ul>
+</div>
+
+<script src="assets/scripts.js"></script>
+</body>
+</html>
